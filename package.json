@@ -10,7 +10,7 @@
   },
   "repository": { 
     "type": "git",
-    "url" : "git+https://something/rw2.git"
+    "url" : "git+https://github.com/stefan22/rw2.git"
   },
 
   "author": "sl",
