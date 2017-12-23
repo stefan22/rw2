@@ -8,14 +8,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
-  "repository": { 
+  "repository": {
     "type": "git",
-    "url" : "git+https://github.com/stefan22/rw2.git"
+    "url": "git+https://github.com/stefan22/rw2.git"
   },
-
   "author": "sl",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "bootstrap": "^4.0.0-alpha.6",
+    "jquery": "^3.2.1",
+    "lite-server": "^2.3.0",
+    "tether": "^1.4.3"
   }
 }
