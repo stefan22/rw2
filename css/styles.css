@@ -1,7 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+
+body {
+ font-size: 16px;
+ font-family: 'Oxygen', sans-serif;
+}
+
 .row-header {
  margin:0px auto;
  
 }
+
+.headerline {
+  position: relative;
+  width:100%;
+}
+
+.headerline h1 {
+  position: absolute;
+  top: -90vh;
+  left: 0;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.headerline p {
+  position: absolute;
+  top: -60vh;
+  left: 0;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.divideX img {
+  width:100%;
+  max-width: 150px;
+  margin:0 auto;
+  display: block;
+  margin-top: 3em;
+}
+
+
 
 .row-content {
   margin:0 auto;
@@ -12,12 +58,12 @@
 
 .footer {
   background-color: #d1c4e9;
-  margin:0px auto;
+  margin:3em auto 0 auto;
   padding: 20px 0px 20px 0px;
 }
 
 .jumbotron {
- padding: 70px 30px 70px 30px;
+ padding: 100vh 5vw 0 5vw;
  border-top-left-radius: 0;
  border-top-right-radius: 0;
  margin:0 auto;
@@ -30,3 +76,122 @@ address {
  margin:0px;
  color:#0f0f0f;
 }
+
+
+/* about */
+
+#corporate {
+ 
+}
+
+#corporate span {
+ width: 100%;
+ display: inline-block;
+ text-align: right;
+}
+
+#corporate span::after {
+  content: 'ˆ';
+}
+
+#corporate span a {
+ text-decoration: none;
+ color: #292b2c;
+ font-weight: bold;
+
+
+}
+
+
+.headline {
+  margin:2em 0;
+}
+
+h4 small {
+ color: #9475cd;
+}
+
+h4 small::before {
+ content: '- ';
+ margin-left: 5px;
+}
+
+
+.person {
+ margin-top:2em;
+ background: aliceblue;
+}
+
+.person h4 {
+  font-size: 1.3rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid;
+}
+
+.corporate {
+ margin-top: 2em;
+}
+
+li.lisfoo {
+  text-align: left;
+  display: grid;
+  width: 90%;
+  margin:0 auto;
+  margin-top: .3em;
+ 
+}
+
+li.lisfoo a {
+ 
+  
+}
+
+footer h5 {
+ margin-bottom: 1em;
+ text-align: left;
+}
+
+footer ul {
+  margin-bottom: 2em;
+}
+
+address {
+ text-align: center;
+}
+
+.socialmedia {
+ margin:2em 0 2em;
+ text-align: center;
+}
+
+.socialmedia a {
+  margin:0 .3em;
+}
+
+.copy {
+ margin:0;
+ font-size: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
