@@ -13,21 +13,34 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-8">
-                    <h1>Ristorante Consino</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                </div>
-                <div class="col col-sm-4">
-                    
-                </div>      
-            </div>
-        </div>
+                <div class="headerline">
+                    <div class="col-12 col-sm-8">
+                        <h1>Ristorante Consino</h1>
+                        <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!
+                            <span class="divideX">
+                                <a href="#upizza"><img src="images/arrdown.png" width="269"></a>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col col-sm-4">
+                       
+                    </div>      
+
+                </div> <!-- endof headerline -->   
+            </div> <!-- endof row row-header -->
+        </div> <!-- endof container -->
     </header>
 
-    <div class="container">
-        <div class="row row-content align-items-center">
+    <div id="about" class="container">
+        <div id="upizza" class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3 flex-last">
                 <h3>Our Lipsmacking Culinary Creations</h3>
+                <figure>
+                    <img class="figure-img img-fluid rounded" src="images/food1.jpg" width="590" height="365" title="food1"/>
+                    <figcaption>This is food one ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. </figcaption>
+                    
+                </figure>
             </div>
             <div class="col-sm col-md flex-first">
                 <h2>Upizza</h2>
@@ -37,10 +50,16 @@
 
 
         <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3 push-md-9">
+            <div class="col-sm-4 col-md-3 push-md-9 flex-last">
                 <h3>This Month's Promotions</h3>
+                <figure>
+                    <img class="figure-img img-fluid rounded" src="images/food2.jpg" width="590" height="365" title="food1"/>
+                    <figcaption>This is food one ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. </figcaption>
+                    
+                </figure>
             </div>
-            <div class="col-sm col-md pull-md-3">
+            <div class="col-sm col-md pull-md-3 flex-first">
                 <h2>Weekend Grand Buffet</h2>
                 <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just £19.99 per person </p>
             </div>
@@ -48,30 +67,35 @@
 
         <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3 push-md-9">
-                <h3>Meet our Culinary Specialists</h3>
+                <h2>Meet our Culinary Specialists</h2>
             </div>
             <div class="col-sm col-md pull-md-3">
-                <h2>Alberto Pochetino</h2>
+                <h3>Alberto Pochetino</h3>
                 <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Italian-South American fusion experiences. </p>
-            </div>
+                <figure>
+                    <img class="figure-img img-fluid rounded" src="images/chef1.jpg" width="590" height="365" title="food1"/>
+                    <figcaption>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Italian-South American fusion experiences.</figcaption>
+                    
+                </figure> 
+            </div>   
         </div>
+        <span><a href="#about">TOP</a></span>
     </div>
 
-    <footer class="footer">
+   <footer class="footer">
         <div class="container">
             <div class="row">             
-                <div class="col-5 offset-1 col-sm-2">
-                    <h5>Links</h5>
+                <div class="col-12 col-sm-2">
+                    <h5>Links:</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li class="lisfoo"><a class="btn btn-outline-primary btn-small" href="index.html">Home</a></li>
+                        <li class="lisfoo"><a class="btn btn-outline-primary btn-small" href="aboutus.html">About</a></li>
+                        <li class="lisfoo"><a class="btn btn-outline-primary btn-small" href="#">Menu</a></li>
+                        <li class="lisfoo"><a class="btn btn-outline-primary btn-small" href="#">Contact</a></li>     
                     </ul>
                 </div>
-                <div class="col-6 offset-1 col-sm-4">
-                    <h5>Our Address</h5>
+                <div class="col-12 col-sm-4">
+                    <h5>Our Address:</h5>
                     <address>
                         121 Bank Street<br>
                         Canary Wharf, London<br>
@@ -80,8 +104,12 @@
                               consino@food.com</a>
                     </address>
                 </div>
-                <div class="col col-sm-4">
-                    <div class="col-sm-6">
+            </div> <!-- endof row -->    
+            <div class="row">
+                <div class="col-12 col-sm-4">
+
+                    <div class="socialmedia">
+                        <h5>Social Media:</h5>
                         <a href="http://google.com/+">Google+</a>
                         <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
                         <a href="http://www.linkedin.com/in/">LinkedIn</a>
@@ -93,7 +121,7 @@
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
-                    <p>© Copyright 2017 Ristorante Consino</p>
+                    <p class="copy">© Copyright 2017 Ristorante Consino</p>
                 </div>
            </div>
         </div>

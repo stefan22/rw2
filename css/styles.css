@@ -15,6 +15,10 @@ body {
   width:100%;
 }
 
+#upizza {
+  /*padding-top: 27px;*/
+}
+
 .headerline h1 {
   position: absolute;
   top: -90vh;
@@ -51,7 +55,7 @@ body {
 
 .row-content {
   margin:0 auto;
-  padding: 50px 0 50px 0;
+  padding: 27px 0 27px 0;
   border-bottom: 1px ridge;
   min-height: 400px;
 }
@@ -59,7 +63,7 @@ body {
 .footer {
   background-color: #d1c4e9;
   margin:3em auto 0 auto;
-  padding: 20px 0px 20px 0px;
+  padding: 30px 0px 20px 0px;
 }
 
 .jumbotron {
@@ -84,17 +88,17 @@ address {
  
 }
 
-#corporate span {
+#corporate span, #about span {
  width: 100%;
  display: inline-block;
  text-align: right;
 }
 
-#corporate span::after {
+#corporate span::after, #about span::after {
   content: 'ˆ';
 }
 
-#corporate span a {
+#corporate span a, #about span a {
  text-decoration: none;
  color: #292b2c;
  font-weight: bold;
@@ -138,6 +142,7 @@ li.lisfoo {
   width: 90%;
   margin:0 auto;
   margin-top: .3em;
+  padding: 1px 0;
  
 }
 
@@ -173,9 +178,15 @@ address {
  font-size: 80%;
 }
 
+/* button footer */
 
+/*.btn-outline-primary {
+  background-color: #f9f9f9;
+}*/
 
-
+#about .row-content:nth-child(3){
+  border-bottom: 0;
+}
 
 
 
