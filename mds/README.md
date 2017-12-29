@@ -34,7 +34,8 @@
 
 
 
-
+> `npm start`, starts lite-server and browsersync
+>
 
 
 
