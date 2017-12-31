@@ -9,6 +9,9 @@ body {
  z-index: 0;
 }
 
+.borderBottom {
+  border-bottom: 0px;
+}
 
 
 /* navbar */
@@ -80,9 +83,10 @@ nav.navbar button {margin-right: 20vw;}
 
 .row-content {
   margin:0 auto;
-  padding: 27px 0 27px 0;
-  border-bottom: 1px ridge;
-  min-height: 400px;
+  /*padding: 27px 0 27px 0;*/
+  padding: 27px 0 0px 0;
+  /*border-bottom: 1px ridge;*/
+  min-height: 60px;
 }
 
 #upizza {
@@ -146,21 +150,35 @@ address a {
 }
 
 /* home top, about top */
-#corporate span, #about span {
+/*#corporate span, #about span {
  width: 95%;
  display: inline-block;
  text-align: right;
+}*/
+
+.top {
+  text-align: right;
+  margin:3em 0 0 0;
 }
 
-#corporate span::after, #about span::after {
-  content: 'ˆ';
+.top::before {
+  content: '^ ';
 }
 
-#corporate span a, #about span a {
+.top a {
+  text-decoration: none;
+  color: #292b2c;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+/*#corporate span a, #about span a {
  text-decoration: none;
  color: #292b2c;
  font-weight: bold;
-}
+}*/
 
 /* social footer */
 
@@ -227,9 +245,6 @@ h4 small::before {
  margin-top: 2em;
 }
 
-#about .row-content:nth-child(3){
-  border-bottom: 0;
-}
 
 
 @media screen and (max-width: 320px) {
