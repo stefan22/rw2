@@ -69,7 +69,7 @@
 <kbd>screenshot one</kbd>
 <br/>
 ![](images/scone.png)
-<br/>
+<br/><br/>
 <kbd>screenshot two</kbd>
 <br/>
 ![](images/sctwo.png)
