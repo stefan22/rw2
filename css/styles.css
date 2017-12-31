@@ -5,6 +5,22 @@
 body {
  font-size: 16px;
  font-family: 'Oxygen', sans-serif;
+ padding-top: 57px;
+ z-index: 0;
+}
+
+
+
+/* navbar */
+.navbar-inverse {
+  background-color: #512da8;
+}
+nav.navbar .container {margin:0 15px;}
+nav.navbar button {margin-right: 20vw;}
+
+.navbar-brand {
+  height: 40px;
+  vertical-align: middle;
 }
 
 /* header */
@@ -69,19 +85,35 @@ body {
   min-height: 400px;
 }
 
+#upizza {
+  padding-top: 80px;
+}
+
+
 /* footer */
 
 .footer {
-  background-color: #d1c4e9;
+  background-color: #36323e;
   margin:3em auto 0 auto;
   padding: 30px 0px 20px 0px;
 }
 
+.btn-outline-primary {
+  background-color: gainsboro;
+  border-color: #ffffff;
+}
+
+
+
 /* footer titles */
 
 footer h5 {
+ margin:0 auto;
+ width:89.66%;
  margin-bottom: 1em;
  text-align: left;
+ font-weight: normal;
+ color: #fdfdfd;
 }
 
 /* footer links */
@@ -93,7 +125,7 @@ footer ul {
 li.lisfoo {
   text-align: left;
   display: grid;
-  width: 90%;
+  width: 89.66%;
   margin:0 auto;
   margin-top: .3em;
   padding: 1px 0;
@@ -101,10 +133,16 @@ li.lisfoo {
 }
 
 address {
- font-size: 80%;
+ font-size: 88%;
  margin:0px;
- color:#0f0f0f;
+ color:#fdfdfd;
  text-align: center;
+}
+
+address a {
+  text-decoration: underline;
+  color:#fdfdfd;
+  cursor: pointer;
 }
 
 /* home top, about top */
@@ -129,16 +167,26 @@ address {
 .socialmedia {
  margin:2em 0 2em;
  text-align: center;
+ width:99%;
 }
 
 .socialmedia a {
-  margin:0 .3em;
+  margin: 0 .3em;
+  color: #1565C0;
+  padding: 3px 7px;
+  background: aliceblue;
+  margin-bottom: 15px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  min-width: 83px;
 }
 
 /* copy row footer */
 .copy {
  margin:0;
  font-size: 80%;
+ color: #fdfdfd;
 }
 
 
@@ -148,9 +196,7 @@ address {
 */
 
 
-.headline {
-  margin:2em 0;
-}
+
 
 h4 small {
  color: #9475cd;
@@ -165,6 +211,10 @@ h4 small::before {
 .person {
  margin-top:2em;
  background: aliceblue;
+}
+
+#history {
+  padding-top: 90px;
 }
 
 .person h4 {
@@ -182,8 +232,23 @@ h4 small::before {
 }
 
 
+@media screen and (max-width: 320px) {
+  .socialmedia a {min-width: 75px; font-size: 90%;}
+  
+}
 
 
+/* landscape */
+
+@media screen and (max-width: 736px) and (min-width: 320px) and (orientation:landscape) {
+
+    .divideX img {max-width: 96px; margin-top:2em;}
+
+    .socialmedia {width:89%;}
+    .socialmedia a {min-width: 83px;}
+
+
+}
 
 
 
