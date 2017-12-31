@@ -5,7 +5,7 @@
 body {
  font-size: 16px;
  font-family: 'Oxygen', sans-serif;
- padding-top: 57px;
+ padding-top: 56px;
  z-index: 0;
 }
 
@@ -19,11 +19,14 @@ body {
   background-color: #512da8;
 }
 nav.navbar .container {margin:0 15px;}
-nav.navbar button {margin-right: 20vw;}
+
 
 .navbar-brand {
   height: 40px;
   vertical-align: middle;
+  /*display: block;*/
+  text-align: left;
+  margin:0 auto;
 }
 
 /* header */
