@@ -5,7 +5,7 @@
 body {
  font-size: 16px;
  font-family: 'Oxygen', sans-serif;
- padding-top: 56px;
+ padding-top: 67px;
  z-index: 0;
 }
 
@@ -15,6 +15,10 @@ body {
 
 
 /* navbar */
+/* cover entire h1 iphone6plus */
+.navbar {
+  padding:.8rem 1rem;
+}
 .navbar-inverse {
   background-color: #512da8;
 }
@@ -27,6 +31,21 @@ nav.navbar .container {margin:0 15px;}
   /*display: block;*/
   text-align: left;
   margin:0 auto;
+}
+
+button.navbar-toggler {
+  box-shadow: 0px 0px 0 1px #18152e;
+  border-color: transparent;
+  margin-right: 3em;
+}
+
+
+button.navbar-toggler:active, button.navbar-toggler:focus, button.navbar-toggler:hover {
+  outline: none;
+  border:1px solid;
+  border-color: #321270;
+  color:#502ea7;
+  box-shadow: none;
 }
 
 /* header */
@@ -74,12 +93,17 @@ nav.navbar .container {margin:0 15px;}
   text-align: center;
 }
 
-.divideX img {
+.headerlineArrowImg {
   width:100%;
-  max-width: 150px;
+  max-width: 125px;
   margin:0 auto;
   display: block;
   margin-top: 3em;
+  -webkit-mix-blend-mode: hard-light;
+  -moz-mix-blend-mode: hard-light;
+  -o-mix-blend-mode: hard-light;
+  -ms-mix-blend-mode: hard-light;
+  mix-blend-mode: hard-light;
 }
 
 /* mainbody */
@@ -260,7 +284,7 @@ h4 small::before {
 
 @media screen and (max-width: 736px) and (min-width: 320px) and (orientation:landscape) {
 
-    .divideX img {max-width: 96px; margin-top:2em;}
+    .headerlineArrowImg {max-width: 96px; margin-top:2em;}
 
     .socialmedia {width:89%;}
     .socialmedia a {min-width: 83px;}
