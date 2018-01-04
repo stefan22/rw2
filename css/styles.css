@@ -73,32 +73,26 @@ button.navbar-toggler:active, button.navbar-toggler:focus, button.navbar-toggler
   position: absolute;
   top: -90vh;
   left: 0;
-  font-size: 3em;
-  font-weight: bold;
-  letter-spacing: 3px;
-  
+  font-size: 2.5em;
   letter-spacing: 1px;
   text-align: center;
 }
 
 .headerline p {
   position: absolute;
-  top: -60vh;
+  top: -70vh;
   left: 0;
-  font-size: 1em;
-  font-weight: bold;
-  letter-spacing: 3px;
-  
+  font-size: .95em;
   letter-spacing: 1px;
   text-align: center;
 }
 
 .headerlineArrowImg {
   width:100%;
-  max-width: 125px;
+  max-width: 65px;
   margin:0 auto;
   display: block;
-  margin-top: 3em;
+  margin-top: 2em;
   -webkit-mix-blend-mode: hard-light;
   -moz-mix-blend-mode: hard-light;
   -o-mix-blend-mode: hard-light;
@@ -224,7 +218,8 @@ address a {
   display: inline-block;
   text-align: center;
   border-radius: 4px;
-  min-width: 83px;
+  min-width: 75px;
+  font-size: 92%;
 }
 
 /* copy row footer */
@@ -273,11 +268,12 @@ h4 small::before {
 }
 
 
-
-@media screen and (max-width: 320px) {
-  .socialmedia a {min-width: 75px; font-size: 90%;}
-  
-}
+/* 
+º
+  Media queries 
+  =============
+º
+*/
 
 
 /* landscape layouts
@@ -286,8 +282,11 @@ h4 small::before {
 
 /* iphone 5 and up */
 @media screen and (max-width: 736px) and (min-width: 320px) and (orientation:landscape) {
+    /* header in jumbotron */
+    .headerline h1 {font-size: 2.4em; width:100%;}
+   
 
-    .headerlineArrowImg {max-width: 96px; margin-top:2em;}
+    
     .socialmedia {width:89%;}
     .socialmedia a {min-width: 83px;}
 
@@ -312,8 +311,7 @@ h4 small::before {
   .headerline h1 {
       top:-18vh;
       width: 100%;
-      font-size: 2.5em;
-      font-weight: normal;
+      
   }
   .headerline p {
       top:-12vh;
