@@ -24,7 +24,7 @@
 
 - ul class of "list-unstyled"
 
-````
+```
   ex:
     <ul class="list-unstyled">...</ul>
 
