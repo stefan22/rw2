@@ -280,25 +280,81 @@ h4 small::before {
 }
 
 
-/* landscape */
+/* landscape layouts
+=====================
+*/
 
+/* iphone 5 and up */
 @media screen and (max-width: 736px) and (min-width: 320px) and (orientation:landscape) {
 
     .headerlineArrowImg {max-width: 96px; margin-top:2em;}
-
     .socialmedia {width:89%;}
     .socialmedia a {min-width: 83px;}
-
 
 }
 
 
+/* portrait layout 
+==================
+*/
+
+
+/* medium size devices, tablets and up */
+@media screen and (min-width: 768px) {
+  
+  .navbar {
+    border-bottom: 1px solid #502ea7;
+  }
+
+  .jumbotron {
+      padding-top:21vh;
+  }
+  .headerline h1 {
+      top:-18vh;
+      width: 100%;
+      font-size: 2.5em;
+      font-weight: normal;
+  }
+  .headerline p {
+      top:-12vh;
+      font-size: 1.25em;
+      font-weight: normal;
+  }
+  img.headerlineArrowImg {
+      display: none;
+  }
+
+
+}/* col-md and up */
 
 
 
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .headerline h1 {
+      font-size: 3em;
+    
+  }
+  .headerline p {
+      font-size: 1.5em;
+     
+  }
 
 
+
+}/* col-lg and up */
+
+
+
+/*
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+*/
 
 
 
