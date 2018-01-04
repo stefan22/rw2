@@ -1,4 +1,4 @@
-## fe ui frameworks/tools &nbsp; <kbd>bootstrap 4</kbd> :book:
+## fe ui frameworks/tools &nbsp; bootstrap 4 :book:
 
 - col-auto
   + use enough columns to accomodate content
