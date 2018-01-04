@@ -71,10 +71,7 @@
 >
 <br/>
 
-<kbd>screenshot one</kbd>
-<br/>
-![](images/scone.png)
-<br/><br/><br/>
+
 
 <kbd>nav menu</kbd>
 <br/>
