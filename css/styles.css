@@ -104,9 +104,7 @@ button.navbar-toggler:active, button.navbar-toggler:focus, button.navbar-toggler
 
 .row-content {
   margin:0 auto;
-  /*padding: 27px 0 27px 0;*/
   padding: 27px 0 0px 0;
-  /*border-bottom: 1px ridge;*/
   min-height: 60px;
 }
 
@@ -170,12 +168,6 @@ address a {
   cursor: pointer;
 }
 
-/* home top, about top */
-/*#corporate span, #about span {
- width: 95%;
- display: inline-block;
- text-align: right;
-}*/
 
 .top {
   text-align: right;
@@ -193,13 +185,6 @@ address a {
   cursor: pointer;
 }
 
-
-
-/*#corporate span a, #about span a {
- text-decoration: none;
- color: #292b2c;
- font-weight: bold;
-}*/
 
 /* social footer */
 
@@ -284,11 +269,28 @@ h4 small::before {
 @media screen and (max-width: 736px) and (min-width: 320px) and (orientation:landscape) {
     /* header in jumbotron */
     .headerline h1 {font-size: 2.4em; width:100%;}
-   
-
-    
+    /* footer */
     .socialmedia {width:89%;}
     .socialmedia a {min-width: 83px;}
+
+}
+
+/* iphone 6 and up */
+@media screen and (max-width: 736px) and (min-width: 320px) and (orientation:landscape) {
+    /* header in jumbotron */
+    .headerline h1 {font-size: 2.5em;}
+    
+    .headerlineArrowImg {max-width: 70px; margin-top: 2.2em;}
+
+}
+
+/* iphone 6 plus and up */
+@media screen and (max-width: 736px) and (min-width: 414px) and (orientation:landscape) {
+    /* header in jumbotron */
+    .headerline h1 {font-size: 2.65em; top:-87vh;}
+    .headerline p {font-size: 1em;}
+    
+    .headerlineArrowImg {max-width: 80px;}
 
 }
 
@@ -296,6 +298,35 @@ h4 small::before {
 /* portrait layout 
 ==================
 */
+
+
+/* min-width 375 iphone6 */
+@media screen and (min-width: 375px) and (orientation:portrait) {
+
+  .headerline h1 {font-size: 2.75em;}
+  .headerline p {font-size: 1em;}
+
+  .headerlineArrowImg {
+      margin-top: 2.25em;
+      max-width: 70px;
+  }
+
+}/* iphone6*/
+
+
+/* min-width 414 iphone6 plus */
+@media screen and (min-width: 414px) and (orientation:portrait) {
+
+  .headerline h1 {font-size: 2.75em;}
+  .headerline p {font-size: 1.1em;}
+
+  .headerlineArrowImg {
+      margin-top: 2.75em;
+      max-width: 80px;
+  }
+
+}/* iphone6*/
+
 
 
 /* medium size devices, tablets and up */
