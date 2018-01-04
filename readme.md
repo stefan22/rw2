@@ -14,11 +14,13 @@
 - flex-last, flex-first
   + allow us to reposition content - same as push and pull
 
+```
   ex:
+  
     <div class="col-sm-3 col-md-4 flex-last">...</div>
 
     <div class="col-sm col-md flex-first">...</div>
-
+```
 
 - ul class of "list-unstyled"
   ex:
