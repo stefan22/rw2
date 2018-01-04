@@ -13,6 +13,13 @@ body {
   border-bottom: 0px;
 }
 
+.introformat {
+  margin-top: .5em;
+  margin-bottom: 1.25em;
+}
+
+.paddingTop {padding-top: 0!important;}
+
 
 /* navbar */
 /* cover entire h1 iphone6plus */
@@ -239,7 +246,7 @@ h4 small::before {
 }
 
 #history {
-  padding-top: 90px;
+  padding-top: 82px;
 }
 
 .person h4 {
@@ -290,7 +297,7 @@ h4 small::before {
     .headerline h1 {font-size: 2.65em; top:-87vh;}
     .headerline p {font-size: 1em;}
     
-    .headerlineArrowImg {max-width: 80px;}
+    .headerlineArrowImg {max-width: 75px;} /* portrait is 80px*/
 
 }
 
@@ -352,6 +359,14 @@ h4 small::before {
   img.headerlineArrowImg {
       display: none;
   }
+
+  /* upizza*/
+  .introformat {margin:0;}
+
+  /* set chef name inline*/
+  .inlinetablet {display: inline-block;}
+  h3.inlinetablet::after {content: ',';}
+  h4.inlinetablet {margin-left: 10px; color:#502ea7;}
 
 
 }/* col-md and up */
