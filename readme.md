@@ -23,8 +23,12 @@
 ```
 
 - ul class of "list-unstyled"
+
+````
   ex:
     <ul class="list-unstyled">...</ul>
+
+```
 
 
 - adding `align-items-center` vertically aligns content within row
