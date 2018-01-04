@@ -1,6 +1,6 @@
 # FE Tools &nbsp; Bootstrap 4 &nbsp; :book:
 
-## Notes &bsp; :pencil2: &nbsp; :clipboard:
+## Notes &nbsp; :pencil2: &nbsp; :clipboard:
 - col-auto
   + use enough columns to accomodate content
 
