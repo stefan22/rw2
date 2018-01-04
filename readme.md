@@ -34,12 +34,14 @@
 - adding `align-items-center` vertically aligns content within row
 
 
-- horizontally centering the column (as oppose to the one above that vertically aligns the content)
+- horizontally centering the column (as oppose to the one above that vertically aligns the content)   
+
+```
   ex:
     <div class="row justify-content-center">
      <div class="col-auto">
 
-
+```
 
 
 
