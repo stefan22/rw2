@@ -273,9 +273,12 @@ h4 small::before {
 */
 
 /* iphone 5 and up */
-@media screen and (max-width: 736px) and (min-width: 320px) and (orientation:landscape) {
+@media screen and (max-width: 568px) and (min-width: 320px) and (orientation:landscape) {
     /* header in jumbotron */
-    .headerline h1 {font-size: 2.4em; width:100%;}
+    .headerline h1 {font-size: 2.4em !important; top:-90vh !important;}
+    .headerline p {font-size: .95em !important; top: -72vh !important;}
+
+    img.headerlineArrowImg {max-width: 65px !important; margin-top: 1.5em !important;}
     /* footer */
     .socialmedia {width:89%;}
     .socialmedia a {min-width: 83px;}
@@ -283,18 +286,18 @@ h4 small::before {
 }
 
 /* iphone 6 and up */
-@media screen and (max-width: 736px) and (min-width: 320px) and (orientation:landscape) {
+@media screen and (max-width: 667px) and (min-width: 375px) and (orientation:landscape) {
     /* header in jumbotron */
-    .headerline h1 {font-size: 2.5em;}
+    header .headerline h1 {font-size: 2.5em; width:100%;}
     
-    .headerlineArrowImg {max-width: 70px; margin-top: 2.2em;}
+    img.headerlineArrowImg {max-width: 70px; margin-top: 2.2em;}
 
 }
 
 /* iphone 6 plus and up */
 @media screen and (max-width: 736px) and (min-width: 414px) and (orientation:landscape) {
     /* header in jumbotron */
-    .headerline h1 {font-size: 2.65em; top:-87vh;}
+    .headerline h1 {font-size: 2.65em; top:-87vh; width:100%;}
     .headerline p {font-size: 1em;}
     
     .headerlineArrowImg {max-width: 75px;} /* portrait is 80px*/
