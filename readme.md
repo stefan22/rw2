@@ -9,10 +9,10 @@
     * it's use for remaining columns
     * col is just how the smallest col classes are now defined in bootstrap 4
 
-  + offset-1, offset-3  (as with previous versions boostrap)   
+- offset-1, offset-3  (just as with previous versions boostrap)   
 
 - ***flex-last***, ****flex-first***   
-  + allows you to reposition content - in the same as push and pull (your regular pull and push classes)   
+  + allows you to reposition content - in the same as with push and pull (same old pull and push classes)   
 
 ```
   ex:
