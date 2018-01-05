@@ -1,18 +1,18 @@
 # FE Tools &nbsp; Bootstrap 4 &nbsp; :book:
 
 ## Notes &nbsp; :pencil2: &nbsp; :clipboard:
-- ***col-auto***
-  + use enough columns to accomodate content - spreads up columns automatically
+- ***col-auto***   
+  + use enough columns to accomodate content - spreads up columns automatically   
 
-- ***col***, ***col-sm***, ***col-md***
-  + col and col-xx, let you leave those values out so long as there's an initial value for a col already set    
-   * use for remaining columns, once a first value already been given
-   * col is always for the smallest value - and up unless others been included - ```mobile first grid```
+- ***col***, ***col-sm***, ***col-md***   
+  + col and col-xx, let you leave those values out so long as there's an initial value for a col already set       
+   * use for remaining columns, once a first value already been given   
+   * col is always for the smallest value - and up unless others been included - ```mobile first grid```   
 
-  + offset-1, offset-3  (as with previous versions boostrap)
+  + offset-1, offset-3  (as with previous versions boostrap)   
 
-- ***flex-last***, ****flex-first***
-  + allows you to reposition content - in the same as push and pull (your regular pull and push classes)
+- ***flex-last***, ****flex-first***   
+  + allows you to reposition content - in the same as push and pull (your regular pull and push classes)   
 
 ```
   ex:
