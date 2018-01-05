@@ -4,10 +4,10 @@
 - ***col-auto***   
   + use enough columns to accomodate content - spreads up columns automatically   
 
-- ***col***, ***col-sm***, ***col-md***   
-  + col and col-xx, let you leave those values out so long as there's an initial value for a col already set       
-    * use for remaining columns, once a first value already been given   
-    * col is always for the smallest value - and up unless others been included - ```mobile first grid```   
+- ***col*** and ***col-xx** (col-sm, col-md)   
+  + col and col-xx, are used onlhy once an initial value for a col and col-xx already been set   
+    * it's use for remaining columns
+    * col is just how the smallest col classes are now defined in bootstrap 4
 
   + offset-1, offset-3  (as with previous versions boostrap)   
 
