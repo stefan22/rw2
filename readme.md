@@ -34,8 +34,8 @@
 - adding ***align-items-center*** to vertically aligns content within row
 
 
-- ***horizontally centering the column*** (as oppose to the one above that vertically aligns the content)   
-
+- ***justify-content-center*** (as oppose to the one above that vertically aligns the content)   
+  + horizontally centers the column within the row 
 ```
   ex:
     <div class="row justify-content-center">
