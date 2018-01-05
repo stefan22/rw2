@@ -50,7 +50,7 @@
 - basic ***nav menu***
 
 ```
-     <!-- collapses on sm inverse is black originally -->
+    <!-- collapses on sm inverse is black originally -->
     <nav class="navbar navbar-inverse navbar-toggleable-sm fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
