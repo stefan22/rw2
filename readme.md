@@ -1,18 +1,18 @@
 # FE Tools &nbsp; Bootstrap 4 &nbsp; :book:
 
 ## Notes &nbsp; :pencil2: &nbsp; :clipboard:
-- col-auto
-  + use enough columns to accomodate content
+- ***col-auto***
+  + use enough columns to accomodate content - spreads up columns automatically
 
-- col, col-sm, col-md
-  + use for remaining columns, once a first value already been given.
+- ***col***, ***col-sm***, ***col-md***
+  + col and col-xx, let you leave those values out so long as there's an initial value for a col already set    
+   * use for remaining columns, once a first value already been given
+   * col is always for the smallest value - and up unless others been included - ```mobile first grid```
 
-  + pull-md-3, push-md-4 (push and pull)
+  + offset-1, offset-3  (as with previous versions boostrap)
 
-  + offset-1, offset-3
-
-- flex-last, flex-first
-  + allow us to reposition content - same as push and pull
+- ***flex-last***, ****flex-first***
+  + allows you to reposition content - in the same as push and pull (your regular pull and push classes)
 
 ```
   ex:
@@ -22,7 +22,7 @@
     <div class="col-sm col-md flex-first">...</div>
 ```
 
-- ul class of "list-unstyled"
+- ul class of ***list-unstyled*** (this does the obvious)
 
 ```
   ex:
@@ -31,10 +31,10 @@
 ```
 
 
-- adding `align-items-center` vertically aligns content within row
+- adding ***align-items-center*** to vertically aligns content within row
 
 
-- horizontally centering the column (as oppose to the one above that vertically aligns the content)   
+- ***horizontally centering the column*** (as oppose to the one above that vertically aligns the content)   
 
 ```
   ex:
@@ -47,7 +47,7 @@
 
 
 
-- basic nav menu
+- basic ***nav menu***
 
 ```
      <!-- collapses on sm inverse is black originally -->
@@ -76,7 +76,7 @@
 ```
 
 
-> `npm start`, starts lite-server and browsersync
+> I'm using `npm start`, to start lite-server and browsersync
 >
 <br/>
 
