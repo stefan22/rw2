@@ -72,6 +72,17 @@
 <br/>
 
 
+### breadcrumb syntax
+
+```
+      <ol class="col-12 breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item active">About Us</li>
+      </ol>
+
+```
+
+
 
 <kbd>nav menu</kbd>
 <br/>

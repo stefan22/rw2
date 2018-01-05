@@ -20,6 +20,10 @@ body {
 
 .paddingTop {padding-top: 0!important;}
 
+/* breadcrumb */
+.breadcrumb {background-color: transparent;}
+.breadcrumb-item a {color:#292b2c;}
+.breadcrumb-item.active a {color:#9475cd;}
 
 /* navbar */
 /* cover entire h1 iphone6plus */
