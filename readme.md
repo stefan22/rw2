@@ -11,8 +11,8 @@
 
 - offset-1, offset-3  (just as with previous versions boostrap)   
 
-- ***flex-last***, ****flex-first***   
-  + allows you to reposition content - in the same as with push and pull (same old pull and push classes)   
+- ***flex-last***, ****flex-first***     
+  + allows you to reposition content in the same manner as with push and pull 
 
 ```
   ex:
