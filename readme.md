@@ -35,7 +35,7 @@
 
 
 - ***justify-content-center*** (as oppose to the one above that vertically aligns the content)   
-  + horizontally centers the column within the row 
+  + horizontally centers the column content within the row 
 ```
   ex:
     <div class="row justify-content-center">
