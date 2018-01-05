@@ -4,7 +4,7 @@
 - ***col-auto***   
   + use enough columns to accomodate content - spreads up columns automatically   
 
-- ***col*** and ***col-xx** (col-sm, col-md)   
+- ***col*** and ***col-xx*** (col-sm, col-md)   
   + col and col-xx, are used onlhy once an initial value for a col and col-xx already been set   
     * it's use for remaining columns
     * col is just how the smallest col classes are now defined in bootstrap 4
