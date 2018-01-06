@@ -223,9 +223,11 @@ address a {
 /* copy row footer */
 .copy {
  margin:0;
- font-size: 80%;
+ font-size: 60%;
  color: #919191;
  font-weight: bold;
+ text-align: center;
+
 }
 
 
@@ -395,6 +397,8 @@ h4 small::before {
   .inlinetablet {display: inline-block;}
   h3.inlinetablet::after {content: ',';}
   h4.inlinetablet {margin-left: 10px; color:#502ea7;}
+
+  .copy {font-size: 80%; text-align: left;}
 
 
 }/* col-md and up */
