@@ -151,35 +151,23 @@ button.navbar-toggler:active, button.navbar-toggler:focus, button.navbar-toggler
 /* footer titles */
 
 footer h5 {
- margin:0 auto;
- width:89.66%;
  margin-bottom: 1em;
- text-align: left;
  font-weight: normal;
  color: #fdfdfd;
 }
 
 /* footer links */
 
-footer ul {
-  margin-bottom: 2em;
-}
-
-li.lisfoo {
-  text-align: left;
-  display: grid;
-  width: 89.66%;
-  margin:0 auto;
-  margin-top: .3em;
-  padding: 1px 0;
+.lisfoo a.btn {
+  padding:0;
+  vertical-align: top; /*aligns with address */
  
 }
 
 address {
  font-size: 88%;
- margin:0px;
  color:#fdfdfd;
- text-align: center;
+ font-weight: normal;
 }
 
 address a {
@@ -191,10 +179,10 @@ address a {
 
 .top {
   text-align: right;
-  margin:3em 0 0 0;
+  margin:2em 0 0 0;
 }
 
-.top::before {
+.top::after {
   content: '^ ';
 }
 
@@ -228,15 +216,16 @@ address a {
 }
 
 .btn-social-icon {
-  margin-left:5px;
+  margin-left:.35em;
+  margin-bottom: .5em;
 }
 
 /* copy row footer */
 .copy {
  margin:0;
- margin-top: 1em;
  font-size: 80%;
- color: #fdfdfd;
+ color: #919191;
+ font-weight: bold;
 }
 
 
@@ -339,6 +328,8 @@ h4 small::before {
       max-width: 70px;
   }
 
+ /* p.copy {width: 91%;}*/
+
 }/* iphone6*/
 
 
@@ -410,6 +401,10 @@ h4 small::before {
      
   }
 
+  /*.copy {
+    width: 91%;
+  }*/
+
 
 
 }/* col-lg and up */
@@ -417,12 +412,15 @@ h4 small::before {
 
 
 /*
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-
+Extra large devices (large desktops, 1200px and up)
 */
+@media (min-width: 1200px) {
+
+  /*.copy {width: 87.5%;}*/
+}
+
+
+
 
 
 

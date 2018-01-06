@@ -43,7 +43,7 @@
 
 ```
 
-
+- also ***align-self-center*** which centers its entire content
 
 
 
