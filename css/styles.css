@@ -28,7 +28,7 @@ body {
 /* navbar */
 /* cover entire h1 iphone6plus */
 .navbar {
-  padding:.8rem 1rem;
+  padding:1em 1.5em;
 }
 .navbar-inverse {
   background-color: #512da8;
@@ -360,17 +360,21 @@ h4 small::before {
   }
 
   .jumbotron {
-      padding-top:21vh;
+      padding-top:25vh;
+      border-radius: 0;
   }
   .headerline h1 {
-      top:-18vh;
+      top:-20vh;
       width: 100%;
+      font-weight: normal;
       
   }
   .headerline p {
-      top:-12vh;
-      font-size: 1.25em;
+      top:-13vh;
+      font-size: 1.05em;
       font-weight: normal;
+      margin:0;
+      padding: 0 10px;
   }
   img.headerlineArrowImg {
       display: none;
@@ -378,6 +382,10 @@ h4 small::before {
 
   /* upizza*/
   .introformat {margin:0;}
+
+  #upizza {
+    padding-top: 30px;
+  }
 
   /* set chef name inline*/
   .inlinetablet {display: inline-block;}
