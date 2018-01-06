@@ -1,47 +1,56 @@
-## fe ui frameworks/tools
+# FE Tools &nbsp; Bootstrap 4 &nbsp; :book:
 
-- col-auto
-  + use enough columns to accomodate content
+## Notes &nbsp; :pencil2: &nbsp; :clipboard:
+- ***col-auto***   
+  + use enough columns to accomodate content - spreads up columns automatically   
 
-- col, col-sm, col-md
-  + use for remaining columns, once a first value already been given.
+- ***col*** and ***col-xx*** (col-sm, col-md)   
+  + col and col-xx, are used onlhy once an initial value for a col and col-xx already been set   
+    * it's use for remaining columns
+    * col is just how the smallest col classes are now defined in bootstrap 4
 
-  + pull-md-3, push-md-4 (push and pull)
+- offset-1, offset-3  (just as with previous versions boostrap)   
 
-  + offset-1, offset-3
+- ***flex-last***, ***flex-first***     
+  + allows you to reposition content in the same manner as with push and pull 
 
-- flex-last, flex-first
-  + allow us to reposition content - same as push and pull
-
+```
   ex:
+  
     <div class="col-sm-3 col-md-4 flex-last">...</div>
 
     <div class="col-sm col-md flex-first">...</div>
+```
 
+- ul class of ***list-unstyled*** (this does the obvious)
 
-- ul class of "list-unstyled"
+```
   ex:
     <ul class="list-unstyled">...</ul>
 
+```
 
-- adding `align-items-center` vertically aligns content within row
+
+- adding ***align-items-center*** to vertically aligns content within row
 
 
-- horizontally centering the column (as oppose to the one above that vertically aligns the content)
+- ***justify-content-center*** (as oppose to the one above that vertically aligns the content)   
+  + horizontally centers the column content within the row 
+```
   ex:
     <div class="row justify-content-center">
      <div class="col-auto">
 
+```
 
 
 
 
 
-
-- basic nav menu
+- basic ***nav menu***
 
 ```
-     <!-- collapses on sm inverse is black originally -->
+    <!-- collapses on sm inverse is black originally -->
     <nav class="navbar navbar-inverse navbar-toggleable-sm fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -67,7 +76,7 @@
 ```
 
 
-> `npm start`, starts lite-server and browsersync
+> I'm using `npm start`, to start lite-server and browsersync
 >
 <br/>
 
