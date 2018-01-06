@@ -35,6 +35,15 @@ body {
 }
 nav.navbar .container {margin:0 15px;}
 
+li.nav-item {
+  margin-left: 7px;
+}
+
+a.nav-link .fa {
+  width: 24px;
+  text-align: center;
+}
+
 
 .navbar-brand {
   height: 40px;
@@ -218,9 +227,14 @@ address a {
   font-size: 92%;
 }
 
+.btn-social-icon {
+  margin-left:5px;
+}
+
 /* copy row footer */
 .copy {
  margin:0;
+ margin-top: 1em;
  font-size: 80%;
  color: #fdfdfd;
 }
@@ -344,10 +358,14 @@ h4 small::before {
 
 
 /* medium size devices, tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (orientation:portrait) {
   
   .navbar {
     border-bottom: 1px solid #502ea7;
+  }
+
+  .navbar-nav {
+    margin-left: 20px;
   }
 
   .jumbotron {
@@ -377,7 +395,6 @@ h4 small::before {
 
 
 }/* col-md and up */
-
 
 
 

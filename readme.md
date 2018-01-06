@@ -82,18 +82,38 @@
 
 ```
 
+### icon fonts
+
+font-awesome & bootstrap social
+
+npm install font-awesome --save
+boostrap-social.css
+
+```
+    <i class="fa fa-phone"></i>
+
+    <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.php?id=">
+
+```
+> you can use either span or i for font-awesome
+
+
+
+
+
+
 
 
 <kbd>nav menu</kbd>
 <br/>
-![](images/nav-menu.png)
+![](images/iphone6.png)
 
 <kbd>screenshot two</kbd>
 <br/>
-![](images/sctwo.png)
+![](images/iphone6-landscape.png)
 
 
-
+> this alpha version of bootstrap throws an error 'collapse is transitioning'
 
 
       
