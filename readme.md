@@ -107,6 +107,8 @@ boostrap-social.css
 > you can use either span or i for font-awesome
 
 
+> .hidden-xs-down =>hides div for xs and down
+
 ### user input:buttons and forms
 
 

@@ -9,6 +9,15 @@ body {
  z-index: 0;
 }
 
+h3 {
+  /* h2 is 2rem orig and h3 is 1.75rem ov */
+  font-size: 1.5rem;
+}
+
+h4 {/* originally 1.5rem */
+  font-size: 1.2rem;
+}
+
 .borderBottom {
   border-bottom: 0px;
 }
@@ -265,7 +274,7 @@ h4 small::before {
 }
 
 .corporate {
- margin-top: 2em;
+ 
 }
 
 
