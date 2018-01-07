@@ -259,7 +259,7 @@ h4 small::before {
 
 
 .person {
- margin-top:2em;
+ margin-top:1em;
  
 }
 
@@ -268,7 +268,6 @@ h4 small::before {
 }
 
 .person h4 {
-  font-size: 1.3rem;
   padding-bottom: .5rem;
   border-bottom: 1px solid;
 }
@@ -394,7 +393,7 @@ h4 small::before {
   /* upizza*/
   .introformat {margin:0;}
 
-  #upizza {
+  #upizza, #history {
     padding-top: 30px;
   }
 
