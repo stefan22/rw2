@@ -242,15 +242,87 @@ boostrap-social.css
 
 ```
 
+### badges
+
+```
+    ex: added two badges to an h2 tag
+
+    <h2 class="mt-0">Upizza 
+        <span class="badge badge-danger">HOT</span> 
+        <span class="badge badge-pill badge-default">$4.99</span>
+    </h2>
+
+    * first one is of a rect shape red and the second one is gray rounded.
+
+```
+
+### javascript components in bootstrap
+
+- css classes with js support using ***data attributes***
+
+```
+    ex:
+        data-toggle, data-spy
+```
+
+#### tabs 
+
+-  tabbed navigation -> for organizing content
+-  tab panes -> organize content into panes
+
+```
+    ex:
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#peter"
+                role="tab" data-toggle="tab">Peter Pan, CEO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#danny" role="tab"
+                data-toggle="tab">Danny Witherspoon, CFO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#agumbe"role="tab"
+                data-toggle="tab">Agumbe Tang, CTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#alberto" role="tab"
+                data-toggle="tab">Alberto Somayya, Exec. Chef</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="peter">
+                <h4>Peter Pan <small>Chief Epicurious Officer</small></h4>
+                <p>Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>        
+            </div> <!-- tab-pane -->
+
+            <div class="tab-pane fade"  id="danny">
+                <h4>Dana Shass <small>Chief Food Officer</small></h4>
+                <p>Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>    
+            </div>
+        </div>    
+
+
+
+        notes:
+        ======
+
+        * <ul> tag with nav and nav-tabs classes to setup navigation
+        * each list-item is a tab
+        * ids with <a> tags to set page anchors
+        * data-toggle attribute inside <a> tag
+        * active is the open tab
 
 
 
 
 
+```
 
 
-
-
+### collapse plugin
 
 
 

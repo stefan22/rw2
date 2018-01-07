@@ -258,22 +258,31 @@ h4 small::before {
 }
 
 
-.person {
- margin-top:1em;
- 
-}
+
 
 #history {
   padding-top: 82px;
 }
 
-.person h4 {
-  padding-bottom: .5rem;
-  border-bottom: 1px solid;
-}
+
 
 .corporate {
  
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    min-height: 210px;
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding:10px;
 }
 
 
@@ -398,7 +407,7 @@ h4 small::before {
   }
 
   .corporate {margin-top: 0;}
-  .person {margin-top: 1em;}
+  
 
 
   /* set chef name inline*/
