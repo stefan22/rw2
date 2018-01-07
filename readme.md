@@ -112,6 +112,145 @@ boostrap-social.css
 ### user input:buttons and forms
 
 
+```
+    ex: button bar containing 3 buttons with an <a> tag
+
+    <div class="btn-group" role="group">
+        <a role="button" class="btn btn-primary" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
+        <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+        <a role="button" class="btn btn-success" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i> Email</a>
+    </div>
+
+```
+
+### forms
+
+- to divide the form into rows, apply the class ***form-group row***
+
+```
+    ex
+
+        <form>
+            <div class="form-group row">
+                <label for="firstname" class="col-md-2 col-form-label">
+                    First Name</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="enter firstname" />
+                </div>    
+            </div> <!-- first row -->
+
+            <div class="form-group row">
+                <label for="lastname" class="col-md-2 col-form-label">
+                    Last Name</label>
+                <div class="col-md-10">
+                    <input type="text" class="form-control" name="lastname" id="lastname" placeholder="enter lastname" />
+                </div>
+            </div> <!-- second row -->
+
+            <div class="form-group row">
+                <label for="phone" class="col-md-2 col-form-label">Contact Tel.</label>
+                <div class="col-md-10">
+                    <input type="number" class="form-control" name="phone" id="phone" placeholder="enter telephone number">
+                </div>
+
+            </div><!--  third row -->
+
+            <div class="form-group row">
+                <label for="email" class="col-md-2 col-form-label">Email
+                </label>
+                <div class="col-md-10">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="enter email">
+                </div>
+            </div> <!-- fourth row -->
+
+            <div class="form-group row">
+                <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                <div class="col-md-10">
+                    <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                </div>
+            </div><!--  fifth row -->
+
+            <div class="form-group row">
+                <div class="offset-md-2 col-md-10">
+                    <button type="submit" class="btn btn-primary">Send Feedback</button>
+                </div>
+            </div> <!-- sixth row -->
+
+        </form>
+
+```
+
+### tables
+- start by assigning them a class of table
+
+```
+        ex:
+        <table class="table">
+            ...
+        </table>
+```
+
+***table-stripped*** -> for zebra stripped rows
+
+***table-bordered*** -> for borders to table cells
+
+***table-hover*** for highlighting rows when you hover over a row
+
+***table-sm*** for cutting the cell padding in half
+
+***table-responsive*** for making responsive tables
+
+#### Color tables:
+    
+- with following classes: active, success, info, warning, danger
+
+```
+        ex:
+
+        <tr class="bg-success">..</tr>
+        <tr class="bg-danger">..</tr>
+```
+
+### images
+
+```
+    ex: nav-brand
+
+    <a class="navbar-brand" href="/.index.html">
+        <img src="images/bird.png" width="40" height="40" class="img-fluid">
+    </a>
+
+```
+
+```
+    ex: media object - class of mr-3 is margin-right 3
+        and mt-0 is margin top zero
+        d-flex allows u to position the image
+
+    <div  class="col-sm col-md-12">
+        <div class="media">
+            <img class="d-flex mr-3 img-thumbnail align-self-center"
+                 src="images/restaurant.jpg" />
+            <div class="media-body">
+                <h2 class="mt-0">Upizza</h2>
+                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, and Buffalo Paneer.</p>
+            </div>
+        </div>
+    </div>    
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
