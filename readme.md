@@ -359,7 +359,8 @@ boostrap-social.css
 
 
 ### scrollspy plugin
-- regular <a href="#"> anchors within a page
+
+- regular ***<a href="#">*** anchors within a page
 
 ```
     ex:
