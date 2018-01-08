@@ -7,6 +7,7 @@ body {
  font-family: 'Oxygen', sans-serif;
  padding-top: 67px;
  z-index: 0;
+ position: relative;
 }
 
 h3 {
@@ -17,6 +18,8 @@ h3 {
 h4 {/* originally 1.5rem */
   font-size: 1.2rem;
 }
+
+a, a:hover {text-decoration: none; cursor: pointer;}
 
 .borderBottom {
   border-bottom: 0px;

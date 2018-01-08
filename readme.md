@@ -322,9 +322,74 @@ boostrap-social.css
 ```
 
 
-### collapse plugin
+### collapse javascript plugin with card to create accordion to show/hide content
+
+```
+    ex: accordion
+
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="peterhead">
+                <h3 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordion"
+                       href="#peter">
+                       <h4>Peter Pan <small>Chief Epicurious Officer</small></h4>
+                    </a>    
+                </h3>
+            </div>
+            <div class="collapse show" id="peter">
+                <div class="card-block">
+                    <p class="hidden-xs-down">
+                        Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.
+                    </p>
+                </div>    
+            </div>
+        </div> <!-- endof card -->
+    ..
+    ....
+    </div> <!-- endof accordion -->
 
 
+    note: 
+        * mb-0 it's just another bootstrap class /margin-bottom 0
+        * hidden-xs-down -> won't show from xs and below
+
+
+```
+
+
+### scrollspy plugin
+- regular <a href="#"> anchors within a page
+
+```
+    ex:
+
+        body {
+          position: relative;
+        }
+
+        //Add these two data attributes:
+        <body data-spy="scroll" data-target="#top">
+
+        //then:
+        <div class="col-12 col-sm-12">
+            <div class="top">
+                    <a href="#top">TOP</a>
+            </div>
+        </div>  
+
+
+        note: it says to add position relative to the body - it works without it too
+
+```    
+
+
+
+### tooltips, popups, and modals
+
+- tooltips - when user hovers over an area
+- popups - when user clicks on a link or a button
+- modals - hide or show its content when user clicks on a link or a button
 
 
 
