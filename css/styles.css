@@ -19,7 +19,7 @@ h4 {/* originally 1.5rem */
   font-size: 1.2rem;
 }
 
-a, a:hover {text-decoration: none; cursor: pointer;}
+a, a:hover, a:active, a:focus, button {text-decoration: none; cursor: pointer;}
 
 .borderBottom {
   border-bottom: 0px;
@@ -451,6 +451,8 @@ h4 small::before {
 Extra large devices (large desktops, 1200px and up)
 */
 @media (min-width: 1200px) {
+
+  .jumbotron {padding-top: 5vh;}
 
   /*.copy {width: 87.5%;}*/
 }

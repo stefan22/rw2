@@ -387,9 +387,68 @@ boostrap-social.css
 
 ### tooltips, popups, and modals
 
+- all reveal content upon user interaction with an element on a page
+- information displayed as overlay
 - tooltips - when user hovers over an area
 - popups - when user clicks on a link or a button
 - modals - hide or show its content when user clicks on a link or a button
+
+<br/>
+        
+        <kbd>tooltiop, popups and modals</kbd>    
+        ![](images/reservetable.png)
+
+<br/>
+
+
+
+<kbd>modals</kbd>    
+        ![](images/modal.png)
+
+<br/>
+
+
+### tooltips
+
+- to enable a tooltip on a button or an <a> tag
+
+```
+    ex:
+
+    <button type="submit" class="btn btn-primary"
+
+            //add this below:
+            data-toggle="tooltip"
+            data-html="true"        //if you need to add html to it.
+            title="or Call us at:<br><strong>0750 1234567</strong>"
+            data-placement="top">Send Feedback
+    </button>
+
+    //just above the closing <body> tag your jQuery script
+    $(document).ready(function() {
+
+        $('[data-toggle="tooltip"]').tooltip();
+
+    });
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

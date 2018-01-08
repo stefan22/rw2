@@ -46,7 +46,14 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col col-sm align-self-center">
-                    <img src="images/bird.png" width="600" height="600" class="img-fluid">
+                    <img src="images/bird.png" width="600" height="600" class="img-fluid" style="max-width: 150px; margin:0 auto;">
+                    <div style="margin:1em 0 2em;">
+                        <a class="btn btn-block btn-sm nav-link btn-warning"
+                           data-toggle="tooltip" data-html="true"
+                           title="Or Call us at<br><strong>0750 224 1234</strong>"
+                           data-placement="bottom"
+                           href="#">Reserve a table</a>
+                   </div>
                 </div>
             </div>
         </div>
@@ -136,7 +143,12 @@
 
                     <div class="form-group row">
                         <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                            <button type="submit" class="btn btn-primary"
+                                    data-toggle="tooltip"
+                                    data-html="true"
+                                    title="or Call us at:<br><strong>0750 1234567</strong>"
+                                    data-placement="top">Send Feedback
+                            </button>
                         </div>
                     </div> <!-- sixth row -->
 
@@ -199,6 +211,14 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+
+    </script>
 </body>
 
 </html>
