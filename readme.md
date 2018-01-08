@@ -360,7 +360,7 @@ boostrap-social.css
 
 ### scrollspy plugin
 
-- regular ***<a href="#">*** anchors within a page
+-  these are internal anchor links within a page
 
 ```
     ex:
