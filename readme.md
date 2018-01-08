@@ -395,9 +395,11 @@ boostrap-social.css
 - modals - hide or show its content when user clicks on a link or a button
 
 <br/>
+<kbd>tooltiop, popups and modals</kbd>  
         
-        <kbd>tooltiop, popups and modals</kbd>    
-        ![](images/reservetable.png)
+![](images/reservetable.png)
+        
+       
 
 <br/>
 
