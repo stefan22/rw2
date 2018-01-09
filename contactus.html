@@ -25,7 +25,7 @@
             </button>
             <a class="navbar-brand" href="./index.html">Ristorante Con Fusion</a>
             <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
                     <li class="nav-item active"><a class="nav-link" href="./portfolio.html">
@@ -34,9 +34,71 @@
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
                     <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#loginModal">
+                        <span class="fa fa-sign-in"></span> Login
+                    </a>
+                </span>
             </div>
         </div>
     </nav>
+
+    <!-- modal -->
+    <div id="loginModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" 
+                            data-dismiss="modal"> &times;
+                               
+                    </button>
+                </div> <!-- endof modal-header -->
+
+                <div class="modal-body">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label class="sr-only" for="exampleEmail">Email</label>
+                            <input type="email" class="form-control form-control-sm mr-1"
+                                    placeholder="enter email" 
+                                    name="exampleEmail" 
+                                    id="exampleEmail" /> 
+                                
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="examplePassword">Password</label>
+                            <input type="password" class="form-control form-control-sm mr-1"
+                                    placeholder="password" 
+                                    name="examplePassword" 
+                                    id="examplePassword" /> 
+                    
+                        </div>
+                        <div class="form-check">
+                            <label for="form-check-label">
+                                <input type="checkbox" class="form-check-input" /> 
+                                Remember me
+                            </label>
+                        </div>
+                    </form>
+
+                </div> <!-- endof modal-body -->
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" 
+                            data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary btn-sm">Sign in</button>
+
+                </div> <!-- endof modal-footer -->
+
+            </div><!-- endof modal-content -->
+        </div> 
+    </div> <!-- endof loginModal -->
+
+
+
+
+
 
     <header class="jumbotron">
         <div class="container">

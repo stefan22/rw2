@@ -435,11 +435,83 @@ boostrap-social.css
 ```
 
 
+> ***mr-auto*** this here pushes whatever is to the right, all the way to the edge of 
+> that div. Auto meaning whatever space is available, all the way right.
+
+
+### modals
+
+- modals should go near the top of page according to bootstrap ? 
+
+```
+    ex: modal for a login button added to  nav
+
+    //login added after <ul> like this:
+    ..
+    </ul>
+     <span class="navbar-text">
+        <a data-toggle="modal" data-target="#loginModal">
+        <span class="fa fa-sign-in"></span> Login</a>
+    </span>
+
+    //also: add to <ul>
+    <ul class="navbar-nav mr-auto">   // mr-auto and since login is on its own, it gets
+                                     // pushed all the way to the edge of the right space
+                                     // available
+
+    //modal inserted near the top right after <nav> tag
+    
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+        <!-- Modal content-->
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h4 class="modal-title">Login </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                        <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="exampleInputPassword3">Password</label>
+                        <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox"> Remember me
+                        </label>
+                    </div>
+                </form>
+
+            </div>
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary btn-sm">Sign in</button>
+            </div>
+
+        </div>
+        </div>
+    </div>                                
+
+
+    * data-dismiss to close modal
+    * data-dismiss &times; x upper right corner
 
 
 
+```
 
 
+    
+
+### carousel 
 
 
 

@@ -45,7 +45,9 @@ a, a:hover, a:active, a:focus, button {text-decoration: none; cursor: pointer;}
 .navbar-inverse {
   background-color: #512da8;
 }
-nav.navbar .container {margin:0 15px;}
+
+/*this right here is wrong - it takes the top nav off center*/
+nav.navbar .container {/*margin:0 15px;*/}
 
 li.nav-item {
   margin-left: 7px;
